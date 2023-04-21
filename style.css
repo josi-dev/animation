@@ -1,0 +1,58 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    animation: sol 10s infinite linear;
+}
+
+#sol {
+    width: 35vh;
+    height: 35vh;
+    background-color: orange;
+    border-radius: 50%;
+    margin-left: 50%;
+    margin-top: 20%;
+    transform: translateX(-50%);
+    overflow-x: scroll;
+    
+}
+
+#sombra {
+    height: 34vh;
+    width: 34vh;
+    border-radius: 50%;
+    background-color: black;
+    transform: translate(-20vh,-20vh);
+    animation: lua 10s infinite linear;
+}
+
+
+@keyframes lua {
+    0% {
+        transform: translate(-20vh,-20vh);
+    }
+    
+    
+    
+    100% {
+        transform: translate(25vh,25vh);
+    }
+}
+
+
+@keyframes sol {
+    0% {
+        background-color: white;
+    }
+    
+    47% {
+        background-color: black;
+    }
+    
+    100% {
+        background-color: white;
+    }
+}
