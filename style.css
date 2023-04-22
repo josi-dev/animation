@@ -16,8 +16,8 @@ body {
     margin-left: 50%;
     margin-top: 20%;
     transform: translateX(-50%);
-    overflow-x: scroll;
-    
+    overflow: scroll;
+    scrollbar-gutter: width:0;
 }
 
 #sombra {
@@ -56,3 +56,4 @@ body {
         background-color: white;
     }
 }
+
