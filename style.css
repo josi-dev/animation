@@ -16,8 +16,8 @@ body {
     margin-left: 50%;
     margin-top: 20%;
     transform: translateX(-50%);
-    overflow: scroll;
-    scrollbar-gutter: width:0;
+    overflow: hidden;
+    
 }
 
 #sombra {
